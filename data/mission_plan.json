@@ -1,0 +1,116 @@
+{
+  "strategy": "LLM-optimized counter-clockwise treatment",
+  "llm_reasoning": "Treating counter-clockwise maximizes treatment effectiveness as the sun position is more favorable for weed detection in the late afternoon, reducing errors and improving accuracy. Additionally, the light breeze from the west has a minimal impact on chemical spray drift.",
+  "llm_confidence": "high",
+  "local_coords": [
+    [
+      -0.05,
+      0.46
+    ],
+    [
+      10.18,
+      -4.33
+    ],
+    [
+      6.46,
+      -11.95
+    ],
+    [
+      2.8,
+      -18.84
+    ],
+    [
+      -1.12,
+      -27.3
+    ],
+    [
+      -5.5,
+      -37.07
+    ],
+    [
+      -10.53,
+      -47.26
+    ],
+    [
+      -14.49,
+      -55.6
+    ],
+    [
+      -19.92,
+      -66.39
+    ],
+    [
+      -23.94,
+      -74.78
+    ],
+    [
+      -28.25,
+      -83.48
+    ],
+    [
+      -33.8,
+      -94.5
+    ],
+    [
+      -41.65,
+      -110.45
+    ],
+    [
+      -50.59,
+      -103.62
+    ],
+    [
+      -49.87,
+      -102.42
+    ],
+    [
+      -47.05,
+      -96.54
+    ],
+    [
+      -44.5,
+      -90.57
+    ],
+    [
+      -40.1,
+      -82.13
+    ],
+    [
+      -36.26,
+      -74.4
+    ],
+    [
+      -32.47,
+      -66.94
+    ],
+    [
+      -26.52,
+      -54.6
+    ],
+    [
+      -22.14,
+      -45.94
+    ],
+    [
+      -16.98,
+      -35.18
+    ],
+    [
+      -11.2,
+      -23.54
+    ],
+    [
+      -6.04,
+      -12.69
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "llm_factors": [
+    "sun position affects camera weed detection accuracy",
+    "wind direction impacts chemical spray drift",
+    "plant stress is highest on sun-facing rows"
+  ]
+}
