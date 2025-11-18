@@ -1,4 +1,4 @@
-# 🤖 Lavender Agentic Robot
+# 🤖 Robotic Mission planning with agentic ai concepts
 
 Autonomous agricultural robot with LLM-powered decision making for optimal field treatment.
 
