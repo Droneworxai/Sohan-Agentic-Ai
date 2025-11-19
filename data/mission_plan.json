@@ -1,6 +1,6 @@
 {
-  "strategy": "LLM-optimized counter-clockwise treatment",
-  "llm_reasoning": "Treating counter-clockwise maximizes treatment effectiveness as the sun position is more favorable for weed detection in the late afternoon, reducing errors and improving accuracy. Additionally, the light breeze from the west has a minimal impact on chemical spray drift.",
+  "strategy": "LLM-optimized clockwise treatment",
+  "llm_reasoning": "Treating clockwise maximizes treatment effectiveness by aligning with the morning sun position, which typically reduces camera weed detection errors, and also allows for optimal chemical adhesion due to morning dew. Moreover, this direction reduces the impact of wind drift from the west. These factors outweigh concerns about battery life and plant stress on sun-facing rows, especially since the last treatment was 3 days ago.",
   "llm_confidence": "high",
   "local_coords": [
     [
@@ -109,8 +109,11 @@
     ]
   ],
   "llm_factors": [
-    "sun position affects camera weed detection accuracy",
-    "wind direction impacts chemical spray drift",
-    "plant stress is highest on sun-facing rows"
+    "sun position",
+    "wind direction",
+    "battery life",
+    "plant stress",
+    "morning dew",
+    "afternoon heat"
   ]
 }

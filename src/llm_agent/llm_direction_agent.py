@@ -110,7 +110,7 @@ if __name__ == '__main__':
     print("=" * 70)
     
     # Load mission
-    with open('mission_plan.json', 'r') as f:
+    with open('../../data/mission_plan.json', 'r') as f:
         mission = json.load(f)
     
     # LLM makes decision
@@ -126,7 +126,7 @@ if __name__ == '__main__':
     mission['llm_factors'] = decision.get('tradeoffs_considered', [])
     mission['local_coords'] = final_waypoints
     
-    with open('mission_plan.json', 'w') as f:
+    with open('../../data/mission_plan.json', 'w') as f:
         json.dump(mission, f, indent=2)
     
     print(f"\n MISSION UPDATED WITH LLM DECISION")
