@@ -6,7 +6,7 @@ import json
 from groq import Groq
 from datetime import datetime
 
-GROQ_API_KEY = "YOUR_GROQ_API_KEY_HERE"
+GROQ_API_KEY = "YOUR_GROQ_API_KEY"
 
 def get_llm_decision():
     """LLM analyzes conditions and decides direction"""
