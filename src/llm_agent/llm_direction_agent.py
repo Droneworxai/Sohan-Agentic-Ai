@@ -5,8 +5,12 @@ AGENTIC LLM: Analyzes conditions and makes intelligent decisions
 import json
 from groq import Groq
 from datetime import datetime
+import os
+from dotenv import load_dotenv
 
-GROQ_API_KEY = "YOUR_GROQ_API_KEY"
+load_dotenv()
+
+GROQ_API_KEY = os.getenv('GROQ_API_KEY')
 
 def get_llm_decision():
     """LLM analyzes conditions and decides direction"""
